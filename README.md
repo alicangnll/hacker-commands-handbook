@@ -1,5 +1,5 @@
 # Hacker Commands Handbook
-
+<b>Contents</b>
 <ul>
 <li><a href="#systeminfo">Systeminfo</a></li>
 <li><a href="#cmd">CMD, Netsh and Regedit</a></li>
@@ -8,7 +8,7 @@
 <li><a href="#sch">Scheduled Tasks</a></li>
 </ul>
 
-<b id="#systeminfo">Systeminfo</b>
+<b id="systeminfo">Systeminfo</b>
 <ul>
 <li>hostname</li>
 <li>whoami /all</li>
@@ -18,7 +18,7 @@
 <li>arp -a</li>
 </ul>
 
-<b id="#cmd">CMD, Netsh and Regedit</b>
+<b id="cmd">CMD, Netsh and Regedit</b>
 <ul>
 <li>cmdkey /list</li>
 <li>whoami /all</li>
@@ -27,7 +27,7 @@
 <li>REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f</li>
 </ul>
 
-<b id="#net">Net Accounts</b>
+<b id="net">Net Accounts</b>
 <ul>
 <li>net user</li>
 <li>net accounts</li>
@@ -39,14 +39,14 @@
 <li>net localgroup administrators</li>
 </ul>
 
-<b id="#wmi">WMI</b>
+<b id="wmi">WMI</b>
 <ul>
 <li>wmic qfe list full /format:list</li>
 <li>start /wait /min "msinfo32 /report c:\windows\temp\msinforeport.txt"</li>
 <li>wmic product get name</li>
 </ul>
 
-<b id="#sch">Scheduled Tasks</b>
+<b id="sch">Scheduled Tasks</b>
 <ul>
 <li>schtasks /Query</li>
 <li>schtasks /create /tn Demo /tr notepad.exe /sc ONIDLE /I 1 /f</li>
