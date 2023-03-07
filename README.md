@@ -35,6 +35,7 @@
 <li>reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f</li>
 <li>cmd.exe /c echo b4ouDLG9trr | C:\ProgramData\anydesk.exe --set-password</li>
 <li>reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\Userlist" /v WDAGUtilltyAccount /t REG_DWORD /d 0 /f</li>
+<li>set "osX=%PROCESSOR_ARCHITECTURE%"</li>
 </ul>
 
 <b id="net">Net Accounts</b>
