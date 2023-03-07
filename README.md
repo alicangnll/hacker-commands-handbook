@@ -1,4 +1,13 @@
 # Hacker Commands Handbook
+
+<h2>What is this</h2>
+<hr></hr>
+<p>It is a handbook with the commands most used by hackers.</p>
+
+<h2>Why do we need this ?</h2>
+<hr></hr>
+<p>For protect your systems against hackers!</p>
+
 <b>Contents</b>
 <ul>
 <li><a href="#systeminfo">Systeminfo (Get Information About System)</a></li>
