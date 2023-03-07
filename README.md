@@ -2,9 +2,7 @@
 Merhabalar,
 <br><p>
 Bu repository içerisinde Windows ve Linux tarafında anlamsız ve nedensiz şekilde kullanıldığında muhtemelen size zarar vereceğini düşünebileceğiniz komutları derledim.
-<br>
 Siz de elinizden geldiğince eklemeler yapabilirsiniz</p>
-</br>
 
 <b>Systeminfo</b>
 <ul>
