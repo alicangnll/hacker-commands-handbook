@@ -1,12 +1,12 @@
 # Hacker Commands Handbook
 <b>Contents</b>
 <ul>
-<li><a href="#systeminfo">Systeminfo</a></li>
+<li><a href="#systeminfo">Systeminfo (Get Information About System)</a></li>
 <li><a href="#cmd">CMD, Netsh and Regedit</a></li>
 <li><a href="#net">Net Accounts</a></li>
-<li><a href="#wmi">WMI</a></li>
+<li><a href="#wmi">WMI (Send WMI Query for User Account Evasion)</a></li>
 <li><a href="#sch">Scheduled Tasks</a></li>
-<li><a href="#antimalware">Anti-Malware Services</a></li>
+<li><a href="#antimalware">Anti-Malware Services Evasion</a></li>
 </ul>
 
 <b id="systeminfo">Systeminfo</b>
